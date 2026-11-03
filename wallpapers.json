@@ -1,0 +1,167 @@
+{
+  "theme": "Biblical Graphite",
+  "base_theme": "Starship",
+  "method": "Rec709Luma grayscale, sigmoidal contrast 2.5x45%; no resizing, blur or spatial filtering",
+  "wallpapers": [
+    {
+      "title": "Creation",
+      "file": "backgrounds/01-creation.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "202ec103dca66a3c4877ae13905461c70d97814dbaf7be3df34650536a118315",
+      "original_sha256": "7717e1ea39869003c779d2bc8f6ef776198588c698beb5ab264ae5f4ede08f5f"
+    },
+    {
+      "title": "The Flood",
+      "file": "backgrounds/02-flood.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e14262d41c3d50c62218db3eadf97132771b7229ced726041e8828f0a8a86174",
+      "original_sha256": "bd297f6d423433ef1241a92881ff6f3d5b76d58645030e189b93c6eefe1bf81c"
+    },
+    {
+      "title": "The Nativity",
+      "file": "backgrounds/03-nativity.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "847c1d3b370891b9860dd18ddd766146a147d72a7e918f9365038c2be89b2647",
+      "original_sha256": "d375e1ea5df71c8936358d47130206298a461e719662c6a685b873baab5937e3"
+    },
+    {
+      "title": "The Crucifixion",
+      "file": "backgrounds/04-crucifixion.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "62cae6461ed48a674dbd4b3649f512e117a8a2d7e1e57657567d058c75c4c59e",
+      "original_sha256": "cc285685ed260c048e3f325c6db4bbbc1e9533e2a3a8e9f227f3d414493b12cb"
+    },
+    {
+      "title": "David and Goliath",
+      "file": "backgrounds/05-david-and-goliath.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "be0052c7c705378fec09a652b4610791432b1b2bf54798cd429bf07b1dd1f75e",
+      "original_sha256": "72cb3d46e895b6b7ca99200e9ea0041bb99d602e6f3417674edd0f9bdec78c99"
+    },
+    {
+      "title": "Revelation and the New Jerusalem",
+      "file": "backgrounds/06-revelation.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f15f3ebd17a9a7f56a92eb6180d337bb00c4d5d3d5871a381467f90817f38eb2",
+      "original_sha256": "1f01e9941676160c5a3b722161a30d7b0d8018f3073e2df481b7a7ae79a5ba4c"
+    },
+    {
+      "title": "Jerusalem Sunset",
+      "file": "backgrounds/07-jerusalem-sunset.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a5a5d185c653675118ef430e130f2e8baeb9cc983a59b2897d205f8ebcb1e08",
+      "original_sha256": "b505fbf58f054de4ecb93bf11468fd705689bf88edc535c5a463ba78660c0a02"
+    },
+    {
+      "title": "The Burning Bush",
+      "file": "backgrounds/08-burning-bush.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e1c6bc6f87937c9ae0c4ff6279acc284c941b6bbaca3b6546b2d8cbaa9afd755",
+      "original_sha256": "74a1f71c5353f94d42ccdf1d842f2d4b911abe981bd671dc676b62d58ff8fab0"
+    },
+    {
+      "title": "The Red Sea",
+      "file": "backgrounds/09-red-sea.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a901f6e11943b89d58aff65487d729db9ba31aa7df8fc3fb21cd8e15f94d7340",
+      "original_sha256": "e2cb50a83d2bf6a6a777a7587bd58999bab11b2c3a1569808f15356b7b439a73"
+    },
+    {
+      "title": "Jericho",
+      "file": "backgrounds/10-jericho.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e449a1f2483798d8d6f15f78e2786a4f35d93f988e52cdee5daf33b303c75ae2",
+      "original_sha256": "a3cc41dfed8e85a1af84c47b9cb60b080708d368426da2a63c064667f132290c"
+    },
+    {
+      "title": "Daniel in the Lions' Den",
+      "file": "backgrounds/11-daniel-lions.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f88a660f476819ebafe1c07374a283c04b07d89484df0828a01831b3aa59f175",
+      "original_sha256": "52bf3b2a2dcc3bc94923a61b3e029b2a090a32134e6b7a56f18dac73cd48fe4a"
+    },
+    {
+      "title": "Elijah's Ascent",
+      "file": "backgrounds/12-elijah-ascent.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "31483a9fcfcbd47a7482316cec978342c270d858a53af9973107f6a0edde3ee8",
+      "original_sha256": "dd64843011d947b4f60b7066eb3cdf312fa04477c6a942f9ff98b39281516b89"
+    },
+    {
+      "title": "The Baptism of Jesus",
+      "file": "backgrounds/13-baptism-jesus.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7b867f96d2190230f88008ae2ff01d99444861339c26521755f83e289d414a1",
+      "original_sha256": "52de85c00e4b81f647c1ad2d5df641a1cc94b6112256d5de17f8b46cb523a2c1"
+    },
+    {
+      "title": "Walking on Water",
+      "file": "backgrounds/14-walking-on-water.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aec4588791460ef9593d4650c742f6189a0af97238ddc9550465b410d04c76a6",
+      "original_sha256": "175f60e2773d249a4af261a94e9366a50b8dcd8072d4778f7028206058652721"
+    },
+    {
+      "title": "Feeding the Five Thousand",
+      "file": "backgrounds/15-feeding-five-thousand.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6e994888221dd063eb379ab82bc3dc46d8aa4294c51efdd7e7913771dd8aca95",
+      "original_sha256": "642bfc26b33531abc50c1f90a7e539bb2d486297e6b9d2564a3cda42742f5fc2"
+    },
+    {
+      "title": "The Transfiguration",
+      "file": "backgrounds/16-transfiguration.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a82b1ab4588a938e56a1fe2015c107044f8bf432d614327aca325f530445ecf",
+      "original_sha256": "1d67cd49c90e460b0acf3104c61a92faac2ed08e8b7c50c9666d112a9fde5130"
+    },
+    {
+      "title": "The Empty Tomb",
+      "file": "backgrounds/17-empty-tomb.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "54ff7e93f5c79ecc6bd0bf2418459838561e144a0387c7ce8490b3eec998a96d",
+      "original_sha256": "1355bb2c63eb5ff301e89fbc03bd5c86fff9c796f78420b28775cc7fefa4e3a0"
+    },
+    {
+      "title": "Jacob's Ladder",
+      "file": "backgrounds/18-jacobs-ladder.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "620a59f081608b88a2d42bff3b22f01af58c4f61ab9247c11906a88bb61304a6",
+      "original_sha256": "2522843a88fdaa1c57229494fcc6c035eb4960c4ddfbb7b361fd7d98dd29bc84"
+    },
+    {
+      "title": "Jonah and the Great Fish",
+      "file": "backgrounds/19-jonah-great-fish.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f83d90ecee3a0f769444153e8be49e392ea3b5d19c9ae54a51d293c730b40257",
+      "original_sha256": "1e248721712bd531e7afdf612379482ae1f21f7aa2b22da782ea06a22f88e4d7"
+    },
+    {
+      "title": "The Last Supper",
+      "file": "backgrounds/20-last-supper.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a596bd995f3bfb537e2cc46200a79a501b318f97e7597d2c4830800b6a1415b2",
+      "original_sha256": "154f757f60a977bfa8b8c5e336205f554fa2216b1a4f79d13ce43b436aca6bfb"
+    }
+  ]
+}

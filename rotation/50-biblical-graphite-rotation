@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if grep -qx biblical-graphite "$HOME/.local/state/omarchy/current/theme.name"; then
+  systemctl --user restart biblical-graphite-wallpaper-rotation.timer
+else
+  systemctl --user stop biblical-graphite-wallpaper-rotation.timer
+fi

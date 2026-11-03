@@ -1,0 +1,10 @@
+[Unit]
+Description=Advance the Biblical Graphite wallpaper
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecCondition=/usr/bin/grep -qx biblical-graphite %h/.local/state/omarchy/current/theme.name
+ExecStart=/usr/bin/omarchy theme bg next
+ExecStartPost=/usr/bin/systemctl --user --no-block restart biblical-graphite-wallpaper-rotation.timer

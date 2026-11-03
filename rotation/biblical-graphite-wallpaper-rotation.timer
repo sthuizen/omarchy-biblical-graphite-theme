@@ -1,0 +1,11 @@
+[Unit]
+Description=Rotate Biblical Graphite wallpapers every 30 minutes
+PartOf=graphical-session.target
+
+[Timer]
+OnActiveSec=30min
+AccuracySec=1s
+Unit=biblical-graphite-wallpaper-rotation.service
+
+[Install]
+WantedBy=graphical-session.target

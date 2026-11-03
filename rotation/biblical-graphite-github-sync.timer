@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Biblical Graphite GitHub sync every 15 minutes
+
+[Timer]
+OnStartupSec=5min
+OnUnitInactiveSec=15min
+AccuracySec=30s
+Unit=biblical-graphite-github-sync.service
+
+[Install]
+WantedBy=timers.target

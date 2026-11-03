@@ -1,8 +1,0 @@
-[Unit]
-Description=Sync Biblical Graphite theme with GitHub
-After=network-online.target
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/bash %h/Work/omarchy-biblical-graphite-theme/scripts/sync-github.sh
-TimeoutStartSec=3min

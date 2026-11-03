@@ -17,11 +17,11 @@ Run `bash scripts/install-rotation.sh` to install a user timer and theme-change 
 To disable automatic changes, run `systemctl --user disable --now biblical-graphite-wallpaper-rotation.timer` and remove `~/.config/omarchy/hooks/theme-set.d/50-biblical-graphite-rotation`.
 
 
-## GitHub sync on this laptop
+## Manual GitHub sync
 
-The installed `~/.config/omarchy/themes/biblical-graphite` points to the working checkout, so theme files have one editable source. A user timer runs `scripts/sync-github.sh` every 15 minutes and five minutes after login. It fetches GitHub updates, fast-forwards a clean checkout, commits changes to already tracked files, pushes them and checks the remote commit. New files need `git add <file>` once before they can be included. Reapply the theme after editing settings to refresh the desktop's staged copy.
+The installed `~/.config/omarchy/themes/biblical-graphite` points to the working checkout, so theme files have one editable source. GitHub syncing is manual: there is no background sync timer or periodic network access. Sync changes when completing theme edits, and reapply the theme after editing settings to refresh the desktop's staged copy.
 
-The sync stops on conflicting local/remote changes instead of overwriting either copy. Inspect `journalctl --user -u biblical-graphite-github-sync.service` for errors. GitHub authentication must remain available to the Git credential helper. It contains no credentials. Disable with `systemctl --user disable --now biblical-graphite-github-sync.timer`.
+The manual helper fetches GitHub updates, fast-forwards a clean checkout, commits changes to already tracked files, pushes them and checks the remote commit. New files need `git add <file>` once before they can be included. It stops on conflicting local/remote changes instead of overwriting either copy. GitHub authentication must be available to the Git credential helper; the script contains no credentials.
 
 For a manual sync, run `bash scripts/sync-github.sh` from the checkout. The source, all 20 wallpapers, previews, licences, rotation units and generation script are versioned. No release binaries are required.
 
